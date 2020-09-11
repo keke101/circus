@@ -9,8 +9,8 @@ import circus.stuff.Ladder;
 
 public class Circus {
     private static Animal[] animals = {
-            new Duck(),
-            new Parrot()
+            new Duck("Drake"),
+            new Parrot("Polly")
     };
     private static Equipment[] equipments = {
             new Ladder(50),
@@ -34,10 +34,6 @@ public class Circus {
             }
             total += a.getValue();
             System.out.println("Adding item value: " + a.getValue());
-            // some
-            // more
-            // code
-            // here ...
         }
         return total;
     }
